@@ -4,6 +4,9 @@
 <html>
 <head>
     <title>${pageName}</title>
+    <!-- React Project -->
+    <!-- jun2642@gmail.com -->
+    <!-- version 1.0.0 -->
 </head>
  
 <body>

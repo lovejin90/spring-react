@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../webapp/css/custom.css';
-import MyName from './MyName.jsx';
+import MyName from './MyName';
+import Counter from './Counter';
  
  
 class MainPage extends React.Component {
@@ -19,7 +20,8 @@ class MainPage extends React.Component {
                     hi there
                 </div>
                 <div className="test">
-                    <MyName/>
+                    <MyName  />
+                    <Counter  />
                 </div>
             </div>
         );

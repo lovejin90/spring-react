@@ -8,4 +8,8 @@ const MyName = ({ name }) => {
   );
 };
 
+MyName.defaultProps ={
+    name : "default"
+}
+
 export default MyName;
