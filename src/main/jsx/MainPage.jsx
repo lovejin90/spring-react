@@ -1,7 +1,8 @@
-import '../webapp/css/custom.css';
- 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '../webapp/css/custom.css';
+import MyName from './MyName.jsx';
+ 
  
 class MainPage extends React.Component {
  
@@ -11,11 +12,16 @@ class MainPage extends React.Component {
             padding: '16px',
             color: 'white',
             fontSize: '12px'
-        };
+        }; 
         return (
-        <div className="App" style={style}>
-            hi there
-        </div>
+            <div>
+                <div className="App" style={style}>
+                    hi there
+                </div>
+                <div className="test">
+                    <MyName/>
+                </div>
+            </div>
         );
     }
  
