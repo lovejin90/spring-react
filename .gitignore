@@ -27,3 +27,5 @@
 ### 예외처리 ###
 .vscode/
 .mvn/
+./build/
+./gradle/
