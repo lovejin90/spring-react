@@ -22,8 +22,8 @@ dependencies {
     compileOnly 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.12'
 }
 
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+group = 'com.example.demo'
+version = '0.0.3-SNAPSHOT'
 description = 'demo'
 sourceCompatibility = '1.8'
 
