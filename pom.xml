@@ -62,32 +62,37 @@
 			</plugin>
 
 			<!-- 메이븐을 통한 서버 배포 -->    
-				<!-- <plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<version>2.4</version>
-					<configuration>
-						<warsourcedirectory>src/main/webapp</warsourcedirectory>
-						<webxml>src/main/webapp/WEB-INF/web.xml</webxml>
-					</configuration>
-				</plugin>
-			
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>tomcat-maven-plugin</artifactId>
-					<version>1.1</version>
-					<configuration>
-						<url>http://128.134.229.14:8080/manager/text</url>
-						<path>/demo</path>
-						<username>admin</username>
-						<password>1234</password>
-					</configuration>
-				</plugin> -->
+			<!-- <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<warsourcedirectory>src/main/webapp</warsourcedirectory>
+					<webxml>src/main/webapp/WEB-INF/web.xml</webxml>
+				</configuration>
+			</plugin>
+		
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<version>1.1</version>
+				<configuration>
+					<url>http://128.134.229.14:8080/manager/text</url>
+					<path>/demo</path>
+					<username>admin</username>
+					<password>1234</password>
+				</configuration>
+			</plugin> -->
 
 
 		</plugins>
 		<!-- <finalName>ROOT.war</finalName> -->
 	</build>
-
+	<!-- <distributionManagement>
+		<site>
+		<id>mkyongserver</id>
+		<url>dav:http://128.134.229.14:8080/sites/</url>
+		</site>
+	</distributionManagement> -->
 
 </project>
